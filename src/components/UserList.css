@@ -1,0 +1,60 @@
+.user-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+}
+
+.user-list__list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 30rem;
+    max-height: 25rem;
+    padding: 1.5rem;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.664);
+    overflow-y: scroll;
+    font-size: 0.5rem;
+}
+
+.delete{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    left: 44%;
+}
+
+hr {
+    width: 100%;
+    max-width: 30rem;
+    height: 1px;
+    border: none;
+    background: #ccc;
+    margin: 0.4rem 0;
+}
+
+.user-list__list li p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 0.3rem;
+    margin-top: 0;
+}
+
+
+
