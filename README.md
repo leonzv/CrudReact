@@ -1,4 +1,4 @@
-#Instruções para instalação e execução do projeto
+# Instruções para instalação e execução do projeto
 Para executar o projeto localmente, siga os passos abaixo:
 
 ##Clonar o repositório
